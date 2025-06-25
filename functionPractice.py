@@ -42,10 +42,7 @@ def my_food(food):
 food = ['Apple', 'Orange', 'Banana']
 my_food(food)
 
-def my_function(x):
-  print(x)
 
-my_function(x = 3)
 
 
 
