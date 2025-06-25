@@ -3,5 +3,5 @@ import matplotlib.pyplot as plt
 
 print("Hello World")
 
-a = np.array([1,2,3])
+a = np.array([4,5,6])
 
