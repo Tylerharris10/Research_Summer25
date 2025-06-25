@@ -42,6 +42,12 @@ def my_food(food):
 food = ['Apple', 'Orange', 'Banana']
 my_food(food)
 
+def numbers(a, b, /, *, c, d):
+    print(a + b + c + d)
+
+numbers(3, 5, c = 7, d = 9)
+
+
 
 
 
