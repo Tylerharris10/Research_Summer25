@@ -58,3 +58,20 @@ print(porsche.speeding())
 del porsche.numSeats
 porsche.numSeats = 4
 print(porsche.isSporty())
+
+class Student(Person):
+
+    def __init__(self, name, age, gradYear):
+        super().__init__(name, age)
+        self.gradYear = gradYear
+
+    def hasGraduated(self):
+        if self.gradYear > 2025:
+            return False
+        else:
+            return True
+    def welcome(self):
+        print("Welcome " + self.name + " to the class of " + str(self.gradYear))
+
+Foster = Student('Foster Harris', 12, 2031)
+Foster.welcome()
