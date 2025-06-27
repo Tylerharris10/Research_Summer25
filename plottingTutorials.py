@@ -30,4 +30,5 @@ if __name__ == '__main__' :
     ax2.set_ylabel('f(x) = cos(x)')
 
     fig.savefig(os.path.join(file_save_path, 'my_figure.png'), dpi=300)
+    print('Hello')
 
